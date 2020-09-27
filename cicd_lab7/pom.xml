@@ -3,4 +3,18 @@
   <groupId>CICD_LAB7</groupId>
   <artifactId>cicd_lab7</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+    <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  
+  <distributionManagement>
+  <snapshotRepository>
+  <id>Rakshit</id>
+  <name>CICD-LAB7</name>
+  <url>http://localhost:8081/repository/CICD-LAB7/</url>
+  </snapshotRepository>
+  </distributionManagement>
+  
 </project>
